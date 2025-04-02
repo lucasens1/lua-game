@@ -62,7 +62,16 @@ else
     print('x is equal to 10')
 end
 
+math.randomseed(os.time())
+print(math.random(0, 10))
+
 -- Loops
-for i = 1, 10, 1 do
-    print(i)
-end
+-- for i = 1, 10, 1 do
+--     print(i)
+-- end
+
+io.write('Enter your name :')
+local ans = io.read()
+
+print('Name : ', ans)
+
